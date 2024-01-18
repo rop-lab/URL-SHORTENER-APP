@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Simulate updating the database with the new like count
         fetch('db.json', {
-            method: 'POST',
+            method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
             },
