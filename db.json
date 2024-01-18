@@ -1,0 +1,11 @@
+{
+    "urls": [
+      {
+        "id": 1,
+        "originalUrl": "https://example.com",
+        "shortenedUrl": "https://yourshortenedurl.com/abc123",
+        "likes": 0
+      }
+    ]
+  }
+  
