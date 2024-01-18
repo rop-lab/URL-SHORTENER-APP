@@ -51,19 +51,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     likeButton.addEventListener('click', () => {
-        // ...
+        //simulate liking the url and update the like count
         currentUrl.likes += 1;
         likeButton.innerHTML =`Liked! (${currentUrl.likes})`;
-        
+        // simulate updating the database with the new like button
         fetch('db.json',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             }
+            body: JSON.stringify({urls:data.urls}),
         })
     });
 
     function displayShortenedUrl(shortenedUrl) {
-        // ...
+        
     }
 });
