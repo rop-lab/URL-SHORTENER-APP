@@ -1,71 +1,65 @@
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
+/* Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Bootstrap default background color */
 }
 
+/* Main Container Styles */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-/* Header Styles */
-header {
-    text-align: center;
-    margin-bottom: 20px;
+
+/* Heading Styles */
+h1 {
+    color: #007bff; /* Bootstrap primary color */
 }
 
-h1 {
-    color: #333;
-}
 /* Form Styles */
 form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 label {
-    margin-bottom: 10px;
+    color: #495057; /* Bootstrap text color */
 }
 
-input {
-    padding: 10px;
-    margin-bottom: 15px;
-}
-
-button {
-    padding: 10px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-/* Shortened URL Container Styles */
-.alert {
-    padding: 10px;
-    margin-bottom: 20px;
-    background-color: #dff0d8;
-    border: 1px solid #3c763d;
-    color: #3c763d;
+/* Input Field Styles */
+.form-control {
     border-radius: 4px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+/* Shortened URL Container Styles */
+#shortenedUrlContainer {
+    background-color: #d4edda; /* Bootstrap success color */
+    border: 1px solid #c3e6cb; /* Bootstrap success border color */
+    border-radius: 4px;
+    padding: 10px;
+    color: #155724; /* Bootstrap success text color */
 }
 
 /* Like Button Styles */
 #likeButton {
-    padding: 10px;
-    background-color: #d9534f;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff;
+    color: #ffffff; /* White text for better contrast */
 }
 
-/* Footer Styles */
-footer {
-    margin-top: 40px;
-    text-align: center;
-    color: #888;
+#likeButton:disabled {
+    background-color: #e9ecef; /* Bootstrap disabled button background color */
+    border-color: #e9ecef; /* Bootstrap disabled button border color */
+    color: #6c757d; /* Bootstrap disabled button text color */
 }
