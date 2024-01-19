@@ -21,3 +21,51 @@ header {
 h1 {
     color: #333;
 }
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* Shortened URL Container Styles */
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    color: #3c763d;
+    border-radius: 4px;
+}
+
+/* Like Button Styles */
+#likeButton {
+    padding: 10px;
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #888;
+}
