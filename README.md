@@ -28,28 +28,14 @@ The CSS file provides basic styling for the web page elements to enhance the use
 URL Shortener with Like Functionality
 This project implements a simple URL shortening service with a like functionality using HTML, CSS, and JavaScript. The backend functionality is simulated using a JSON file (db.json) to store data.
 
-Features
+# Features
 Shorten a URL and display the shortened version.
 Like the shortened URL and update the like count.
 Simulated database interactions with db.json.
 Getting Started
 Follow these steps to set up and run the project locally.
 
-Prerequisites
-Web browser (e.g., Chrome, Firefox, Safari)
-Code editor (e.g., Visual Studio Code)
-Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/url-shortener.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd url-shortener
-Usage
 Open index.html in your preferred web browser.
 
 Fill out the form with the original URL and submit it.
@@ -58,7 +44,7 @@ The shortened URL will be displayed along with a like button.
 
 Click the like button to increase the like count.
 
-Code Explanation
+# Code Explanation
 HTML (index.html)
 The HTML file contains the structure of the web page, including the form, input fields, and containers for displaying the shortened URL and like button.
 
@@ -101,7 +87,7 @@ Click the like button to increase the like count.
 
 ## Code Explanation
 
-HTML (index.html)
+# HTML (index.html)
 The HTML file contains the structure of the web page, including the form, input fields, and containers for displaying the shortened URL and like button.
 
 CSS (styles.css)
