@@ -110,3 +110,6 @@ Display Shortened URL: Updates the UI to display the shortened URL in an alert c
 This project uses a simulated database in the form of a JSON file (db.json). In a real-world scenario, you would replace this with a server and a proper database.
 
 The project uses the Fetch API to make asynchronous requests to the simulated database.
+
+# project management tool link
+https://trello.com/b/UUUxk855/url-shortener
